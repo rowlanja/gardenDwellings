@@ -1,6 +1,8 @@
 .App {
-  text-align: center;
+  text-align: left;
+  background-color: #F8F9FA;
 }
+
 
 .App-logo {
   height: 40vmin;
@@ -36,3 +38,41 @@
     transform: rotate(360deg);
   }
 }
+
+* {
+  box-sizing: border-box;
+}
+
+.productsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.certsContainer {
+  display: 'flex';
+  align-items: 'center';
+  justify-content: space-between;
+  height: 100%;
+  transform: 'translate(-50%, -50%)'
+}
+
+.certs {
+  margin: auto;
+    display: block;
+  transform: 'translate(-50%, -50%)'
+}
+
+.wrap{
+  display: flex;
+  align-items: 'center';
+  justify-content: space-between;
+  margin-top: 10px;
+  width: 100%;
+}
+.midImg{
+  margin: auto;  
+  display: flex;
+  position: relative;
+}  

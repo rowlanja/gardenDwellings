@@ -1,0 +1,5 @@
+nav {
+  position: sticky;
+  position: -webkit-sticky; /* For Safari */
+  top: 50%; /* How far down the page you want your ToC to live */
+}

@@ -1,9 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
 import 'bootstrap/dist/css/bootstrap.min.css'
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 import Header from './components/Header'
 import Home from './pages/Home'
 import Contact from './pages/Contact'
@@ -16,11 +15,10 @@ ReactDOM.render(
       <Header/>
       <Routes>
         <Route exact path="/" element={<App/>} />
-        <Route path="/home" element={<Home/>} />
+        <Route path="/home" element={<App/>} />
         <Route path="/specs" element={<Specs/>} />
         <Route path="/info" element={<Info/>} />
         <Route path="/contact" element={<Contact/>} />
-
       </Routes>
     </Router>
   </React.StrictMode>,
