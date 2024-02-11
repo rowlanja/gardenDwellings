@@ -64,6 +64,19 @@
   transform: 'translate(-50%, -50%)'
 }
 
+.homes {
+  margin: auto;
+  display: block;
+  transform: 'translate(-50%, -50%)'
+}
+
+.productsContainer{
+  display: flex;
+  align-items: 'center';
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
 .wrap{
   display: flex;
   align-items: 'center';

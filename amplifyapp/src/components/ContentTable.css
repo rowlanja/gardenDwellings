@@ -3,3 +3,43 @@ nav {
   position: -webkit-sticky; /* For Safari */
   top: 50%; /* How far down the page you want your ToC to live */
 }
+
+a {
+  color: grey;
+  text-decoration: none;
+}
+
+ul {
+  color: rgb(58, 57, 57);
+}
+
+li {
+  color: rgb(58, 57, 57);
+}
+
+a:link {
+  color: rgb(1, 97, 1);
+}
+
+/* visited link */
+a:visited {
+  color: rgb(1, 97, 1);
+}
+
+/* mouse over link */
+a:hover {
+  color: rgb(1, 97, 1);
+}
+
+/* selected link */
+a:active {
+  color: rgb(1, 97, 1);
+}
+
+li.active > a {
+  color: rgb(95, 92, 92);
+}
+
+li > a:hover {
+  color: rgb(95, 92, 92);
+}
